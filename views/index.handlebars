@@ -1,0 +1,15 @@
+<div class="container shorten-form form-layout">
+    <h1>URL Shortener</h1>
+    {{#if invalidurl}}
+    <div class="alert alert-danger" role="alert">
+      The URL you entered, {{invalidurl}}, is invalid. Please try again.
+    </div>
+    {{/if}}
+    <div class="form-box" >
+      <form class= "form-position" action="/shortenurl" method="post">
+      <p><label for="url">Please enter your url: </label></p>
+      <p><input type="text" name="url" id="url"></p>
+      <p><button type="submit" class="btn btn-outline-light">Shorten!</button></p>
+      </form>
+  </div>
+</div>
