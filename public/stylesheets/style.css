@@ -3,7 +3,7 @@
 }
 
 .shorten-form {
-    background-image: url("/images/maxresdefault.jpg");
+    background-image: url("../images/wallpaper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 1em;
@@ -20,7 +20,6 @@
 }
 
 .form-box {
-    background-color: rgba(0, 0, 0, 0.2);
     margin-left: 28%;
     width: 30rem;
     height: 15rem;
@@ -28,6 +27,25 @@
 
 .form-box form {
     margin-top: 10%;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+}
+
+a{
     color: white;
     text-align: center;
 }
